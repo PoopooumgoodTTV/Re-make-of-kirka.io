@@ -8,5 +8,14 @@ var context;
 
 
 window.onload = function() {
-    bord = document.getElementById9("bord")
+    bord = document.getElementById9("bord");    
+    bord.height = rows * blocksize;
+    bord.width = cols * blocksize;
+    context = bord.getcontext("2d"); //used for drawing on the bord
+
+update();
+}
+
+function update() {
+    context.fillstyle-"blank"
 }
