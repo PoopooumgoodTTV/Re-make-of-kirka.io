@@ -17,5 +17,7 @@ update();
 }
 
 function update() {
-    context.fillstyle-"blank"
+    context.fillstyle-"blank";
+    context.fillrect(0, 0, bord.width, bord.height);
+    
 }
