@@ -2,3 +2,12 @@ body {
     font-family:'Courier New', Courier, monospace;
     text-align: center;
 }
+
+
+
+.gradient-text {
+    background: linear-.gradient ( - 70deg,
+    #a2facf 0%, #64acff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: Transparent;
+}
